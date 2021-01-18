@@ -7,7 +7,8 @@
 }
 
 :root {
-  --darkBlue: #202020;
+  --darkBg: #202020;
+  --secDarkBg: #292929;
   --primary: #053f5e;
   --secondary: #115173;
   --accent: #ffd700;
@@ -18,7 +19,7 @@
 
 body {
   color: var(--white);
-  background-color: var(--darkBlue);
+  background-color: var(--darkBg);
   font-size: 16px;
 }
 /* UTILITY */
@@ -67,7 +68,7 @@ li {
 }
 .nav-links .ctaButton {
   padding: 12px 24px;
-  color: var(--darkBlue);
+  color: var(--darkBg);
   background-color: var(--accent);
   border-radius: 50px;
 }
@@ -117,3 +118,26 @@ li {
   width: 100%;
 }
 /* END OF HERO */
+
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 72px;
+  background-color: var(--secDarkBg);
+}
+
+.footer-items {
+  flex: 50%;
+  min-width: 50%;
+  padding: 24px;
+}
+.socMed {
+  text-align: end;
+}
+.socMed a {
+  color: var(--white);
+  margin-left: 24px;
+}
+/* END OF FOOTER */
