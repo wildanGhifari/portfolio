@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Poppins:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkBlue: #001522;
+  --primary: #053f5e;
+  --secondary: #115173;
+  --accent: #ffd700;
+  --accentHover: #ffc400;
+  --white: #fff;
+  --grey: #ccc;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--darkBlue);
+  font-size: 16px;
+}
+/* UTILITY */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+a,
+li,
+caption {
+  font-family: "Open Sans", sans-serif;
+}
+/* END OF UTILITY */
+
+/* NAVBAR */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links li {
+  list-style: none;
+  margin-left: 28px;
+}
+.nav-links a {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--grey);
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: var(--white);
+}
+.nav-links .ctaButton {
+  padding: 12px 24px;
+  color: var(--darkBlue);
+  background-color: var(--accent);
+  border-radius: 50px;
+}
+.nav-links .ctaButton:hover {
+  background-color: var(--accentHover);
+}
+/* END OF NAVBAR */
