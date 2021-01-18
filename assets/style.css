@@ -7,13 +7,13 @@
 }
 
 :root {
-  --darkBlue: #001522;
+  --darkBlue: #202020;
   --primary: #053f5e;
   --secondary: #115173;
   --accent: #ffd700;
   --accentHover: #ffc400;
   --white: #fff;
-  --grey: #ccc;
+  --grey: rgb(185, 185, 185);
 }
 
 body {
@@ -34,8 +34,7 @@ button {
 
 p,
 a,
-li,
-caption {
+li {
   font-family: "Open Sans", sans-serif;
 }
 /* END OF UTILITY */
@@ -76,3 +75,45 @@ caption {
   background-color: var(--accentHover);
 }
 /* END OF NAVBAR */
+
+/* HERO */
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 36px 72px;
+}
+
+.hero-items {
+  flex: 50%;
+  min-width: 50%;
+  padding: 24px;
+}
+
+#hero-text h1 {
+  font-size: 72px;
+}
+#hero-text h5 {
+  color: var(--grey);
+  letter-spacing: 2px;
+  font-size: 20px;
+  opacity: 0.3;
+}
+#hero-text p {
+  margin: 32px 0;
+  color: var(--grey);
+  line-height: 2;
+}
+#hero-text p strong {
+  color: var(--white);
+}
+#hero-text a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#hero-img img {
+  width: 100%;
+}
+/* END OF HERO */
