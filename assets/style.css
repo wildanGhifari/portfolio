@@ -190,6 +190,39 @@ li {
 }
 /* END OF SERVICES */
 
+/* WOKRS */
+#project {
+ padding: 5% 72px;
+}
+
+.project-headline {
+ text-align: center;
+ padding: 0 20%;
+}
+.project-headline h5 {
+ color: var(--grey);
+ letter-spacing: 2px;
+ font-size: 20px;
+ opacity: 0.3;
+}
+.project-headline h2 {
+ font-size: 36px;
+}
+
+.portfolio {
+ margin-top: 32px;
+ padding: 24px;
+}
+
+.portfolio img {
+ width: 100%;
+}
+
+.portfolio-desc {
+ margin-top: 24px;
+}
+/* END OF WOKRS */
+
 /* FOOTER */
 footer {
  display: flex;
