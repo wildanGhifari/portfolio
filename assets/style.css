@@ -219,7 +219,19 @@ li {
 }
 
 .portfolio-desc {
- margin-top: 24px;
+ padding: 24px 16px;
+}
+
+.portfolio-desc h3 {
+ float: left;
+}
+.portfolio-desc a {
+ float: right;
+ color: var(--white);
+ text-decoration: none;
+}
+.portfolio-desc a:hover {
+ color: var(--accent);
 }
 /* END OF WOKRS */
 
