@@ -6,6 +6,10 @@
  box-sizing: border-box;
 }
 
+html {
+ scroll-behavior: smooth;
+}
+
 :root {
  --darkBg: #202020;
  --secDarkBg: #292929;
