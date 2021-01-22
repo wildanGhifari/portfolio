@@ -164,6 +164,7 @@ li {
  text-align: center;
  border-radius: 25px;
  cursor: pointer;
+ transition: 0.3s;
 }
 .service-summary .card:hover {
  z-index: 99;
@@ -196,7 +197,7 @@ li {
 
 /* WOKRS */
 #project {
- padding: 5% 72px;
+ padding: 5% 16%;
 }
 
 .project-headline {
@@ -213,24 +214,60 @@ li {
  font-size: 36px;
 }
 
-.portfolio {
+.portfolio-1 {
  margin-top: 32px;
  padding: 24px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ flex-direction: row-reverse;
+ background-color: var(--secDarkBg);
+ border-radius: 25px;
 }
 
-.portfolio img {
- width: 100%;
+.portfolio-1 img {
+ flex: 50%;
+ max-width: 50%;
+ border-radius: 25px;
+}
+.portfolio-2 {
+ margin-top: 32px;
+ padding: 24px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ /* flex-direction: row-reverse; */
+ background-color: var(--secDarkBg);
+ border-radius: 25px;
+}
+
+.portfolio-2 img {
+ flex: 50%;
+ max-width: 50%;
+ border-radius: 25px;
 }
 
 .portfolio-desc {
- padding: 24px 16px;
+ padding: 0 32px;
 }
-
+.portfolio-desc h5 {
+ color: var(--grey);
+ letter-spacing: 2px;
+ font-size: 20px;
+ opacity: 0.3;
+}
 .portfolio-desc h3 {
- float: left;
+ font-size: 24px;
+}
+.portfolio-desc div {
+ margin-bottom: 32px;
+}
+.portfolio-desc div p {
+ margin-top: 16px;
+ color: var(--grey);
+ line-height: 1.7;
 }
 .portfolio-desc a {
- float: right;
  color: var(--white);
  text-decoration: none;
 }
