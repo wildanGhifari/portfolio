@@ -372,23 +372,36 @@ li {
 
 /* FOOTER */
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 72px;
+  text-align: center;
+  padding: 32px 72px;
   background-color: var(--secDarkBg);
 }
 
-.footer-items {
-  flex: 50%;
-  min-width: 50%;
-  padding: 24px;
+footer div {
+  margin: 32px 0;
 }
-.socMed {
-  text-align: end;
+
+.contact h2 {
+  font-size: 36px;
+  padding: 0 20%;
 }
+.contact h2 a {
+  color: var(--white);
+}
+.contact h2 a:hover {
+  color: var(--accent);
+}
+
+.copyRight {
+  font-size: 14px;
+}
+
 .socMed a {
   color: var(--white);
-  margin-left: 24px;
+  margin: 0 16px;
+}
+.socMed a:hover {
+  color: var(--accent);
+  margin: 0 16px;
 }
 /* END OF FOOTER */
