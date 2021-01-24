@@ -43,6 +43,10 @@ a,
 li {
   font-family: "Open Sans", sans-serif;
 }
+
+main {
+  max-width: 1920px;
+}
 /* END OF UTILITY */
 
 /* NAVBAR */
@@ -95,7 +99,7 @@ li {
   align-items: center;
   justify-content: space-around;
   padding: 10% 72px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .hero-items {
@@ -476,3 +480,6 @@ footer div {
   margin: 0 16px;
 }
 /* END OF FOOTER */
+
+@media (max-width: 768px) {
+}
