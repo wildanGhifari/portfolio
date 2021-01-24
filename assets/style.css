@@ -327,6 +327,49 @@ li {
 }
 /* END OF WOKRS */
 
+/* RESOURCES */
+#resources {
+  padding: 10% 72px;
+}
+
+.resource-headline {
+  text-align: center;
+  padding: 0 20%;
+}
+.resource-headline span {
+  color: var(--grey);
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 700;
+  opacity: 0.3;
+}
+.resource-headline h2 {
+  font-size: 36px;
+}
+
+.getResources {
+  text-align: center;
+  margin-top: 62px;
+}
+.getResources a {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--darkBg);
+  background-color: var(--accent);
+  padding: 16px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.getResources a:hover {
+  color: var(--white);
+  background-color: var(--accentHover);
+  -webkit-box-shadow: 0px 5px 25px 10px rgba(255, 153, 0, 0.2);
+  -moz-box-shadow: 0px 5px 25px 10px rgba(255, 153, 0, 0.2);
+  box-shadow: 0px 5px 25px 10px rgba(255, 153, 0, 0.2);
+}
+/* END OF RESOURCES */
+
 /* FOOTER */
 footer {
   display: flex;
