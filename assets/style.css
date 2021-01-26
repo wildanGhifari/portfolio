@@ -99,7 +99,7 @@ main {
   align-items: center;
   justify-content: space-around;
   padding: 10% 72px;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .hero-items {
