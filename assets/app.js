@@ -9,3 +9,19 @@ const cardTransform = () => {
 }
 
 cardTransform();
+
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+
+    burger.addEventListener('click', () => {
+        // Toggle Nav
+        nav.classList.toggle('nav-active');
+
+        // Burger Animate
+        burger.classList.toggle('toggle');
+    });
+    
+}
+
+navSlide();
