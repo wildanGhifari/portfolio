@@ -696,18 +696,18 @@ footer div {
   padding: 0;
  }
  /* END OF FOOTER */
-}
 
-/* CONTACT PAGE*/
-#contact {
- padding: 30% 24px;
- text-align: center;
-}
+ /* CONTACT PAGE*/
+ #contact {
+  padding: 30% 24px;
+  text-align: center;
+ }
 
-#contact h2 {
- font-size: 26px;
+ #contact h2 {
+  font-size: 26px;
+ }
+ form {
+  width: 100%;
+ }
+ /* END OF CONTACT PAGE*/
 }
-form {
- width: 100%;
-}
-/* END OF CONTACT PAGE*/
